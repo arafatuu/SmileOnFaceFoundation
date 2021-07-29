@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  /* border: 2px solid red; */
+}
+nav {
+  flex: 1;
+  text-align: right;
+  /* border: 2px solid red; */
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  /* border: 2px solid red; */
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+p {
+  color: #555;
+}
+.logo {
+  /* border: 2px solid red; */
+}
+
+.orgName {
+  font-family: "Teko", sans-serif;
+  font-size: 50px;
+  color: green;
+}
+.slogun {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #555;
+}
+.fontMessage {
+  font-size: 20px;
+  color: #555;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0px 25px;
+}
+
+.row {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col2 {
+  /* border: 2px solid red; */
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.Brand-heading {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  color: orange;
+}
+.btn {
+  display: inline-block;
+  background: orangered;
+  color: #fff;
+  padding: 10px 30px;
+  margin: 30px 2px;
+  border-radius: 30px;
+}
+.btn:hover {
+  background: tomato;
+  color: #ddd;
+}
+
+header {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+header .row {
+  margin: 70px;
+}
+.fontImage {
+  width: 70%;
+  margin: auto;
+}
+
+.col3 {
+  flex-basis: 30%;
+  min-width: 300px;
+}
+
+.col3 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
