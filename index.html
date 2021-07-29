@@ -11,6 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&family=Style+Script&family=Teko&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -18,24 +25,29 @@
       <div class="container">
         <div class="navbar">
           <div class="logo">
-            <img src="images/logo/logo.png" alt="Logo" style="width: 125px" />
+            <div class="logo-image">
+              <img src="images/logo/logo.png" alt="Logo" style="width: 125px" />
+            </div>
+            <div class="tagline">
+              <h2 class="orgName">Smile On Face</h2>
+              <p class="slogun">A non profit organization</p>
+            </div>
           </div>
-          <div class="tagName">
-            <h2 class="orgName">Smile On Face</h2>
-            <p class="slogun">A non profit organization</p>
+
+          <div class="menue-bar">
+            <nav>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Gallary</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </nav>
           </div>
-          <nav>
-            <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Gallary</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Contact Us</a></li>
-            </ul>
-          </nav>
         </div>
 
         <div class="row">
-          <div class="col2">
+          <div class="col-sm-6">
             <h2 class="Brand-heading">
               We work for<br />
               humanity!
@@ -51,10 +63,10 @@
             </p>
             <a href="#" class="btn">Donate Us &#10093; &#10093;</a>
           </div>
-          <div class="col2">
+          <div class="col-sm-6">
             <img
-              class="fontImage"
-              src="images/gallary/fontimage/fontImage.png"
+              class="fontImage img-fluid"
+              src="images/fontImage.png"
               alt="image"
             />
           </div>
@@ -66,20 +78,27 @@
 
     <div class="row">
       <div class="col3">
-        <img src="images/gallary/showOff/image1.jpg" alt="" />
+        <img src="images/image1.jpg" alt="" />
       </div>
       <div class="col3">
-        <img src="images/gallary/showOff/image2.jpg" alt="" />
+        <img src="images/image2.jpg" alt="" />
       </div>
       <div class="col3">
-        <img src="images/gallary/showOff/image3.jpg" alt="" />
+        <img src="images/image3.jpg" alt="" />
       </div>
       <div class="col3">
-        <img src="images/gallary/showOff/image4.jpg" alt="" />
+        <img src="images/image4.jpg" alt="" />
       </div>
       <div class="col3">
-        <img src="images/gallary/showOff/image5.jpg" alt="" />
+        <img src="images/image5.jpg" alt="" />
       </div>
     </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

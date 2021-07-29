@@ -33,18 +33,24 @@ p {
   color: #555;
 }
 .logo {
-  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 .orgName {
   font-family: "Teko", sans-serif;
   font-size: 50px;
   color: green;
+  display: inline-block;
 }
 .slogun {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #555;
+}
+.tagline {
+  display: inline-block;
 }
 .fontMessage {
   font-size: 20px;
